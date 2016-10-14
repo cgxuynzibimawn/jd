@@ -1,0 +1,19 @@
+.header{
+    width:100%;
+    background-color: #F1F1F1;
+}
+.header #province{
+    width:100px;
+    border-left:1px solid #F1F1F1;
+    border-right:1px solid #F1F1F1;
+}
+.province_hover{
+    background-color: white;
+    cursor: pointer;
+    border-left:1px solid #E7E7E7;
+    border-right:1px solid #E7E7E7;
+}
+#login ul li{
+    padding:0px 5px;
+    border-right:1px solid #E7E7E7;
+}
