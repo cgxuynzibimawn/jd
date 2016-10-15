@@ -7,12 +7,12 @@
     <link rel="icon" href="localhost:8080/jd.com/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <div class="container ovh">
-      <div class="header ovh">
-        <div id="province" class="fl pt10 pb10 pl20 ml20">
+    <div class="container">
+      <div class="header">
+        <div id="province" class="fl pt10 pb10 pl20 ml20 posr">
           <p class="fz12">送至:北京</p>
-          <div id="list" style="display: none;">
-
+          <div id="list" class="posa" style="display: none;">
+            <ul></ul>
           </div>
         </div>
         <div id="login" class="fz12 fr mt10 mb10">

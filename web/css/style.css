@@ -83,3 +83,9 @@ a:visited{
 .ovh{
     overflow: hidden;
 }
+.posr{
+    position: relative;
+}
+.posa{
+    position: absolute;
+}
