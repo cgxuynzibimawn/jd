@@ -2,13 +2,20 @@
     margin:0px;
     padding:0px;
     font-family:"Microsoft YaHei","Times New Roman","Arial","Comic Sans MS","黑体";
+    vertical-align: middle;
 }
 ul li{
     list-style: none;
     float: left;
 }
+input{
+    border: none;
+    outline: none;
+}
 a{
+    color: #6F6D6A;
     text-decoration: none;
+    border: 0 none;
 }
 a:hover{
     color: #C81623;
@@ -19,6 +26,9 @@ a:visited{
 }
 .container{
     width:100%;
+}
+.vam{
+    vertical-align: middle;
 }
 .mt10{
     margin-top:10px;
@@ -79,6 +89,9 @@ a:visited{
 }
 .fz14{
     font-size:14px;
+}
+.fz20{
+    font-size:20px;
 }
 .ovh{
     overflow: hidden;

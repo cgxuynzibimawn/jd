@@ -18,6 +18,7 @@ public class ProvinceServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=utf-8");
         List<Province> list = new ProvinceDaoImpl().getAll();
+        //fastJSON alibaba
         String jsonStr = JSON.toJSONString(list);
         PrintWriter out = response.getWriter();
         out.print(jsonStr);

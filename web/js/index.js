@@ -8,11 +8,14 @@ $(function () {
         $(this).find('#list').css('display','none');
     });
     //绑定省份数据
+    //异步
     $.ajax({
+        //get  post
         method:'post',
         url:'ProvinceServlet',
         dataType:'json',
         success:function (listProv) {
+            console.log(listProv);
             $.each(listProv,function (index) {
                 $('#list ul').append('<li class="fz12"><a href="">'+listProv[index].name+'</a></li>');
             });
