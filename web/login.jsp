@@ -31,15 +31,15 @@
                     <span style="color: #6F6D6A">公共场所不建议自动登录，以防账号丢失</span>
                 </div>
                 <%--表单开始--%>
-                <form action="">
+                <form action="control/login_ctrl.jsp" method="post" name="login">
                     <div class="item">
                         <b style="background: #fff url('images/pwd-icons-new.png') no-repeat 0px 0px;"></b>
-                        <input type="text" placeholder="邮箱/用户名/已验证手机" />
+                        <input type="text" placeholder="邮箱/用户名/已验证手机" name="username" />
                         <b class="close"></b>
                     </div>
                     <div class="item">
                         <b style="background: #fff url('images/pwd-icons-new.png') no-repeat -48px 0px;"></b>
-                        <input type="password" placeholder="密码" />
+                        <input type="password" placeholder="密码" name="password" />
                         <b class="close"></b>
                     </div>
 
@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="login_btn">
-                        <a href="javascript:;" class="btn-img btn-entry" id="loginsubmit" tabindex="6">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                        <a href="javascript:void(0)" onclick="subForm()" class="btn-img btn-entry" id="loginsubmit" tabindex="6">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
                     </div>
                 </form>
                 <%--表单结束--%>
@@ -107,4 +107,6 @@
         </div>
     </div>
 </body>
+<script src="js/jquery-2.2.4.js"></script>
+<script src="js/login.js"></script>
 </html>
