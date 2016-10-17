@@ -4,6 +4,9 @@
     font-family:"Microsoft YaHei","Times New Roman","Arial","Comic Sans MS","黑体";
     vertical-align: middle;
 }
+.m0{
+    margin:0 auto;
+}
 ul li{
     list-style: none;
     float: left;

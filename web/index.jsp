@@ -49,7 +49,23 @@
           </ul>
         </div>
       </div>
-    </div>
+      <div id="search" class="m0 mt10 ovh">
+          <div class="logo mt10"><img src="images/logo.png" alt=""></div>
+          <div class="find mt20">
+              <input class="fz14 pl20" style="border:none;width:456px;height: 36px; color: #717171;" placeholder="显示器" type="text" name="findGoods" /><button class="fz14">搜&nbsp;&nbsp;索</button>
+          </div>
+          <div class="cartshop mt20 posr">
+              <div class="cs_btn">
+                  <i class="icon mt10 ml10"></i>
+                  <span><a href="">我的购物车</a></span>
+                  <i class="ci-count" id="shopping-amount">0</i>
+              </div>
+          </div>
+      </div>
+      <div id="nav" class="mt10">
+
+      </div>
+     </div>
   </body>
   <script src="js/jquery-2.2.4.js"></script>
   <script src="js/index.js"></script>
