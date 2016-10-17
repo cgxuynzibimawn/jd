@@ -9,6 +9,7 @@
   </head>
   <body>
     <div class="container">
+        <%--头部开始--%>
       <div class="header">
         <div id="province" class="fl pt10 pb10 pl20 ml20 posr">
           <p class="fz12">送至:北京</p>
@@ -49,6 +50,8 @@
           </ul>
         </div>
       </div>
+      <%--头部结束--%>
+      <%--搜索部分开始--%>
       <div id="search" class="m0 mt10 ovh">
           <div class="logo mt10"><img src="images/logo.png" alt=""></div>
           <div class="find mt20">
@@ -62,9 +65,35 @@
               </div>
           </div>
       </div>
+      <%--搜索部分结束--%>
+      <%--导航部分开始--%>
       <div id="nav" class="mt10">
-
+        <div class="dt fl">
+            <a target="_blank" href="#">全部商品分类</a>
+        </div>
+        <div class="nav_list ovh">
+            <ul class="ovh ml20">
+                <li><a href="">服装城</a></li>
+                <li><a href="">美妆馆</a></li>
+                <li><a href="">京东超市</a></li>
+                <li><a href="">生鲜</a></li>
+                <li><a href="">全球购</a></li>
+                <li><a href="">闪购</a></li>
+                <li><a href="">团购</a></li>
+                <li><a href="">拍卖</a></li>
+                <li><a href="">金融</a></li>
+            </ul>
+        </div>
       </div>
+      <%--导航部分结束--%>
+      <%--菜单,二级菜单,焦点图,京东快报--%>
+      <div id="banner_list" class="posr">
+          <div class="menu ml20 fl ovh">
+            <%--<div class="item fz12 pl20"><span>家用电器</span></div>--%>
+          </div>
+      </div>
+      <%--菜单,二级菜单,焦点图,京东快报--%>
+
      </div>
   </body>
   <script src="js/jquery-2.2.4.js"></script>

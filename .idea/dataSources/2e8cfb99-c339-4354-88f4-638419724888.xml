@@ -11,33 +11,51 @@
     <schema id="6" name="sys"/>
     <table id="7" parent="1" name="Province"/>
     <table id="8" parent="1" name="Users"/>
-    <column id="9" parent="7" name="id">
+    <table id="9" parent="1" name="LargeMenu"/>
+    <column id="10" parent="7" name="id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="10" parent="7" name="name">
+    <column id="11" parent="7" name="name">
       <mandatory>1</mandatory>
       <data-type>varchar(20)|0</data-type>
     </column>
-    <key id="11" parent="7" name="PRIMARY">
+    <key id="12" parent="7" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
-    <column id="12" parent="8" name="id">
+    <column id="13" parent="8" name="id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="13" parent="8" name="username">
+    <column id="14" parent="8" name="username">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="14" parent="8" name="password">
+    <column id="15" parent="8" name="password">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <key id="15" parent="8" name="PRIMARY">
+    <key id="16" parent="8" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="17" parent="9" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="18" parent="9" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="19" parent="9" name="level">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="20" parent="9" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
