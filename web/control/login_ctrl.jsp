@@ -9,6 +9,7 @@
     if(u!=null){
         session.setAttribute("users",u);
         session.setMaxInactiveInterval(60 * 10);//设置会话有效期为10分钟
+        //重定向
         response.sendRedirect("../index.jsp");
     }
 %>

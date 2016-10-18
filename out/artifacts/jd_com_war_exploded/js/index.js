@@ -43,9 +43,11 @@ $(function () {
     $('.menu').delegate('.item',{'mouseenter':function () {
         $(this).css({'background':'#FFFFFF','border-left':'1px solid #C61A2A'});
         $(this).find('a').css('color','#C61A2A');
+        $('.dropdown_layer').css('display','block');
     },'mouseleave':function () {
         $(this).css('background','#C61A2A');
         $(this).find('a').css('color','#FFFFFF');
+        $('.dropdown_layer').css('display','none');
     }});
 
     // 焦点图轮换效果

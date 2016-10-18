@@ -1,3 +1,4 @@
+<%@ page import="entity.Users" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
@@ -20,6 +21,9 @@
         <div id="login" class="fz12 fr mt10 mb10">
           <ul>
             <li>
+              <%--JSTL--%>
+              <%--自定义标签--%>
+              <%--$()jQuery   ${}EL表达式 JSP--%>
               <c:choose>
                 <c:when test="${sessionScope.users!=null}">
                   <a href="login.jsp">你好，${sessionScope.users.username}</a>
@@ -28,6 +32,19 @@
                   <a href="login.jsp">你好，请登录</a>
                 </c:otherwise>
               </c:choose>
+              <%--<%--%>
+                  <%--//获取用户名--%>
+                  <%--Users u = (Users) session.getAttribute("users");--%>
+                <%--if(u!=null){--%>
+              <%--%>--%>
+                  <%--<a href="">你好,<%=u.getUsername() %></a>--%>
+              <%--<%--%>
+                <%--}else{--%>
+              <%--%>--%>
+                  <%--<a href="login.jsp">你好，请登录</a>--%>
+              <%--<%--%>
+                <%--}--%>
+              <%--%>--%>
             </li>
             <li>
               <c:choose>
@@ -55,7 +72,8 @@
       <div id="search" class="m0 mt10 ovh">
           <div class="logo mt10"><img src="images/logo.png" alt=""></div>
           <div class="find mt20">
-              <input class="fz14 pl20" style="border:none;width:456px;height: 36px; color: #717171;" placeholder="显示器" type="text" name="findGoods" /><button class="fz14">搜&nbsp;&nbsp;索</button>
+              <input class="fz14 pl20" style="border:none;width:456px;height: 36px; color: #717171;" placeholder="显示器" type="text" name="findGoods" />
+              <button class="fz14">搜&nbsp;&nbsp;索</button>
           </div>
           <div class="cartshop mt20 posr">
               <div class="cs_btn">
@@ -88,8 +106,100 @@
       <%--导航部分结束--%>
       <%--菜单,二级菜单,焦点图,京东快报--%>
       <div id="banner_list" class="posr">
-          <div class="menu ml20 fl ovh posr">
+          <div class="menu ml20 fl posr">
             <%--<div class="item fz12 pl20"><span>家用电器</span></div>--%>
+            <div class="dropdown_layer">
+                <dl>
+                    <dt><span>时尚女鞋</span></dt>
+                    <dd>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><span>时尚女鞋</span></dt>
+                    <dd>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><span>时尚女鞋</span></dt>
+                    <dd>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><span>时尚女鞋</span></dt>
+                    <dd>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><span>时尚女鞋</span></dt>
+                    <dd>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a><a href="">单鞋</a>
+                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
+                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
+                        <a href="">单鞋</a><a href="">休闲鞋</a>
+                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
+                        <a href="">妈妈鞋</a>
+                    </dd>
+                </dl>
+            </div>
           </div>
 
           <div class="banner fl ovh ml10 posr">
