@@ -159,3 +159,46 @@
 #banner_list .item a{
     color: #fff;
 }
+#banner_list .banner{
+    width:730px;
+    height:454px;
+}
+#banner_list .slider_nav{
+    width:100%;
+    height:20px;
+    z-index: 100;
+}
+#banner_list .slider_nav ul{
+    overflow: hidden;
+    height:20px;
+    width:170px;
+    margin:0 auto;
+    margin-top:434px;
+}
+.slider_item{
+    width: 18px;
+    height:18px;
+    background-color: #3E3E3E;
+    margin-left:10px;
+    text-align: center;
+    line-height:18px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size:12px;
+}
+.banner .list{
+    width:730px;
+    height:454px;
+    -moz-background-size: 100%;
+    -webkit-background-size:100%;
+    background-size:100%;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+.banner .list:nth-child(1){
+    display: block;
+}
+.list_focus{
+    background-color: #B41E25;
+}

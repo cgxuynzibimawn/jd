@@ -88,12 +88,24 @@
       <%--导航部分结束--%>
       <%--菜单,二级菜单,焦点图,京东快报--%>
       <div id="banner_list" class="posr">
-          <div class="menu ml20 fl ovh">
+          <div class="menu ml20 fl ovh posr">
             <%--<div class="item fz12 pl20"><span>家用电器</span></div>--%>
+          </div>
+
+          <div class="banner fl ovh ml10 posr">
+              <div class="slider_nav posa">
+                  <ul>
+                      <li class="slider_item list_focus">1</li>
+                      <li class="slider_item">2</li>
+                      <li class="slider_item">3</li>
+                      <li class="slider_item">4</li>
+                      <li class="slider_item">5</li>
+                      <li class="slider_item">6</li>
+                  </ul>
+              </div>
           </div>
       </div>
       <%--菜单,二级菜单,焦点图,京东快报--%>
-
      </div>
   </body>
   <script src="js/jquery-2.2.4.js"></script>

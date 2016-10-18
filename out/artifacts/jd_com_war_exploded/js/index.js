@@ -48,4 +48,40 @@ $(function () {
         $(this).find('a').css('color','#FFFFFF');
     }});
 
+    // 焦点图轮换效果
+    $.ajax({
+        method:'post',
+        url:'BannerServlet',
+        dataType:'json',
+        success:function (bannerList) {
+            $.each(bannerList,function (i) {
+                $('.banner').prepend('<div class="list" style="background-image: url(images/banner/'+bannerList[i].name+')"></div>');
+
+            });
+        }
+    });
+
+
+    var i = 0;
+    var stop = false;
+    var bannerTimer = setInterval(function () {
+        if(stop) return;
+        $('.banner .list').stop(true,true).eq(i).fadeIn(1000).siblings('.list').fadeOut(500);
+        $('.slider_item').eq(i).addClass('list_focus').siblings().removeClass('list_focus');
+        i++;
+        if(i==$('.banner .list').length){
+            i=0;
+        }
+    },2000);
+
+    $('.slider_item').mouseenter(function () {
+        stop = true;
+        var index = $(this).index('.slider_item');
+        $(this).addClass('list_focus').siblings().removeClass('list_focus');
+        $('.banner .list').stop(true,true).eq(index).fadeIn(1000).siblings('.list').fadeOut(500);
+        i = index;
+    }).mouseleave(function () {
+        stop = false;
+    });
+
 });
