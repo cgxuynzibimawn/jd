@@ -182,7 +182,8 @@
     background-color: white;
     left:210px;
     z-index: 11;
-    /*display: none;*/
+    display: none;
+    top:0px;
 }
 .dropdown_layer dl{
     width:100%;
@@ -191,6 +192,7 @@
 }
 .dropdown_layer dt{
     padding:13px 0px 0px 0px;
+    width:50px;
 }
 .dropdown_layer dt,dd{
     float: left;

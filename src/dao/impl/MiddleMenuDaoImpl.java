@@ -14,7 +14,7 @@ public class MiddleMenuDaoImpl extends BaseDao implements MiddleMenuDao {
     public List<MiddleMenu> getByLevelId(Integer levelId) {
         String sql = "SELECT * FROM MiddleMenu WHERE LEVEL = ?";
         List<MiddleMenu> list = new ArrayList<MiddleMenu>();
-        ResultSet rs = executeQuery(sql,levelId);
+        ResultSet rs = executeQuery(sql, levelId);
         try {
             while (rs.next()){
                 MiddleMenu mm = new MiddleMenu();

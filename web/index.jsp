@@ -108,98 +108,98 @@
       <div id="banner_list" class="posr">
           <div class="menu ml20 fl posr">
             <%--<div class="item fz12 pl20"><span>家用电器</span></div>--%>
-            <div class="dropdown_layer">
-                <dl>
-                    <dt><span>时尚女鞋</span></dt>
-                    <dd>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt><span>时尚女鞋</span></dt>
-                    <dd>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt><span>时尚女鞋</span></dt>
-                    <dd>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt><span>时尚女鞋</span></dt>
-                    <dd>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt><span>时尚女鞋</span></dt>
-                    <dd>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a><a href="">单鞋</a>
-                        <a href="">休闲鞋</a><a href="">帆布鞋</a>
-                        <a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>
-                        <a href="">单鞋</a><a href="">休闲鞋</a>
-                        <a href="">帆布鞋</a><a href="">鱼嘴鞋</a>
-                        <a href="">妈妈鞋</a>
-                    </dd>
-                </dl>
-            </div>
+            <%--<div class="dropdown_layer">--%>
+                <%--<dl>--%>
+                    <%--<dt><span>时尚女鞋</span></dt>--%>
+                    <%--<dd>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a>--%>
+                    <%--</dd>--%>
+                <%--</dl>--%>
+                <%--<dl>--%>
+                    <%--<dt><span>时尚女鞋</span></dt>--%>
+                    <%--<dd>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a>--%>
+                    <%--</dd>--%>
+                <%--</dl>--%>
+                <%--<dl>--%>
+                    <%--<dt><span>时尚女鞋</span></dt>--%>
+                    <%--<dd>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a>--%>
+                    <%--</dd>--%>
+                <%--</dl>--%>
+                <%--<dl>--%>
+                    <%--<dt><span>时尚女鞋</span></dt>--%>
+                    <%--<dd>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a>--%>
+                    <%--</dd>--%>
+                <%--</dl>--%>
+                <%--<dl>--%>
+                    <%--<dt><span>时尚女鞋</span></dt>--%>
+                    <%--<dd>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a><a href="">单鞋</a>--%>
+                        <%--<a href="">休闲鞋</a><a href="">帆布鞋</a>--%>
+                        <%--<a href="">鱼嘴鞋</a><a href="">妈妈鞋</a>--%>
+                        <%--<a href="">单鞋</a><a href="">休闲鞋</a>--%>
+                        <%--<a href="">帆布鞋</a><a href="">鱼嘴鞋</a>--%>
+                        <%--<a href="">妈妈鞋</a>--%>
+                    <%--</dd>--%>
+                <%--</dl>--%>
+            <%--</div>--%>
           </div>
 
           <div class="banner fl ovh ml10 posr">
