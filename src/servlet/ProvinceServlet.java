@@ -22,6 +22,7 @@ public class ProvinceServlet extends HttpServlet {
         String jsonStr = JSON.toJSONString(list);
         PrintWriter out = response.getWriter();
         out.print(jsonStr);
+        out.flush();
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

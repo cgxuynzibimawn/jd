@@ -27,6 +27,7 @@ public class LargeMenuServlet extends HttpServlet {
         Map<String, List<LargeMenu>> maps = mldao.getAllLargeMenu();
         String str = JSON.toJSONString(maps);
         out.print(str);
+        out.flush();
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -63,8 +63,8 @@ public class BaseDao {
     protected void closeAll(Connection conn, Statement stmt, ResultSet rs){
         try {
             if(rs!=null) rs.close();
-            if(stmt!=null) rs.close();
-            if(conn!=null) rs.close();
+            if(stmt!=null) stmt.close();
+            if(conn!=null) conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

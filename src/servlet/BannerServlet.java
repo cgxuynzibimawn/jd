@@ -21,6 +21,7 @@ public class BannerServlet extends HttpServlet {
         List<Banner> list = new BannerDaoImpl().getAllBanner();
         String str = JSON.toJSONString(list);
         out.print(str);
+        out.flush();
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
